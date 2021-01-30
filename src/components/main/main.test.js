@@ -10,6 +10,7 @@ it(`Should render Main correctly`, () => {
         <Main
           offersCount={3}
           offers={offers}
+          onOfferHeaderClick={() => {}}
         />
     )
     .toJSON();
